@@ -60,9 +60,7 @@ const navigate = useNavigate();
         }}></TextField>
       </div>
       <br />
-      <Button color="#f44336" variant="contained" onClick={capValue}>
-        Login
-      </Button>
+      
 
       <Link to={'/signup'}>
       <br /> <br />
