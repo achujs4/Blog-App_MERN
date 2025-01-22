@@ -15,7 +15,7 @@ const navigate = useNavigate();
   function capValue(){
     // console.log(form);
     // (give the backend port no: and backend url) redirection url - app.js/index.js)
-    axios.post("http://localhost:3000/users/login",form).then((res) => {
+    axios.post("/api/users/login",form).then((res) => {
       console.log(res)
       alert(res.data.message);
       // blogs is given in the route of app.jsx - frontend

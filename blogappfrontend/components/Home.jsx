@@ -20,7 +20,7 @@ const Home = () => {
   useEffect(() => {
     // '/blogs' - in the get of blog routes
     axiosInstance
-      .get("http://localhost:3000/blog/blogs")
+      .get("/api/blog/blogs")
       .then((res) => {
         setData(res.data);
       })
