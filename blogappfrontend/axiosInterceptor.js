@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Create an Axios instance
 const axiosInstance = axios.create({
-    baseURL: '/api',
+    baseURL: '/api/',
 });
 
 // Interceptor to inject token into headers

@@ -39,7 +39,7 @@ const navigate = useNavigate();
 
   return (
     <div style={{ margin: "10%", textAlign: "center" }}>
-      <Typography variant="h3" style={{ color: "Brown" }}>
+      <Typography variant="h3" style={{ color: "Blue" }}>
         BlogApp Login
       </Typography>
       <br />
@@ -60,7 +60,7 @@ const navigate = useNavigate();
         }}></TextField>
       </div>
       <br />
-      
+      <button varient="contained" onClick ={capValue}> Login </button>
 
       <Link to={'/signup'}>
       <br /> <br />

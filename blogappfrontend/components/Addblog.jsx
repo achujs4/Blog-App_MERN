@@ -31,7 +31,7 @@ const Addblog = () => {
         });
     } else {
       axiosInstance
-        .post("/api/blog/addblog", blogData)
+        .post("/blog/addblog", blogData)
         .then((res) => {
           alert("Blog added");
           // console.log(res)
